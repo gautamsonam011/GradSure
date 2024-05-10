@@ -1,0 +1,43 @@
+#btnn1,#btnn2{
+    width: 4rem;
+    background-color: rgb(80, 80, 189);
+    color: white;
+    font-weight: bold;
+    margin-left: 35%; 
+}
+#btnn1{margin-top: 1rem;}
+#btnn2{margin-top: 2.5rem;}
+.box{
+    box-shadow: 0 0 10px 5px rgb(33, 29, 29);
+    transition-timing-function: 0.1 ease-in;
+    height: 430px;
+    border: 10px;
+    background-color: beige;
+    margin: 1rem;
+    max-width: 280px;
+}
+.box img{
+    display: block;
+    border-radius: 5px;
+}
+.box :hover{
+    transform: scale(1.2);
+    transform: perspective(100);
+    z-index: 1;
+}
+@media screen and (max-width:320px) {
+}
+@media  screen and (max-width:375px) {
+}
+@media  screen and (max-width:425px) {
+}
+@media  screen and (max-width:768px) {
+}
+@media  screen and (max-width:1024px) {
+}
+@media  screen and (max-width:1440px) {
+}
+::selection {
+    color: rgb(247, 250, 246);
+    background-color: mediumseagreen;
+  }

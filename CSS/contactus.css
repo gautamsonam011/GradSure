@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(16, 162, 45);
+}
+
+#btn1{
+    border: none;
+    width:5rem;
+    border-radius: 10px;
+    background-color: #074a40;;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-left: 1rem;
+}
+
+#th{
+    text-align: center;
+    height: 50px;
+    margin-top: 3rem;
+    border-radius: 12px;
+    box-shadow: -2px -2px 5px rgba(8, 7, 7, 0.3),
+      5px 5px 5px rgba(11, 10, 10, 0.2),
+      15px 15px 15px rgba(4, 1, 1, 0.2);
+}
+.text{
+    font-family: Verdana;
+    font-weight: 300;
+    color: #074a40;
+    text-shadow: 1px 1px 1px #0c5a5d,
+    1px 2px 1px #0c5a5d,
+    1px 8px 5px rgba(16,16,16,0.4),
+    1px 15px 10px rgba(16,16,16,0.2);
+}
+h4{
+    margin-top: 1.5rem;
+}
+i{
+    margin-top: 1rem;
+}
+@media screen and (max-width:320px) {
+}
+@media screen and (max-width:375px) {
+}
+@media screen and (max-width:768px) {
+}
+@media screen and (max-width:1024px) {
+}
+@media screen and (max-width:1440px) {
+}
+/* >>>>>>>>>>>>>>>Contact Us>>>>>>>>>>>>>>  */
+#i{
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(154, 69, 20);
+}
+#box {
+  text-align: center;
+  margin: 3px;
+  background-color: rgb(237, 246, 238);
+  height:180px;
+  border-radius: 15px;
+  box-shadow: -2px -2px 5px rgba(8, 7, 7, 0.3),
+      5px 5px 5px rgba(11, 10, 10, 0.2),
+      15px 15px 15px rgba(4, 1, 1, 0.2);
+}
+.h5{
+  color: #07422f;
+}
+::selection {
+    color: rgb(247, 250, 246);
+    background-color: mediumseagreen;
+  }

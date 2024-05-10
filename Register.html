@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"></script>
+    <link rel="stylesheet" href="CSS/Home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/fontawesome.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.0.0/collection/components/icon/icon.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.0.0/esm/ionicons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="JavascriptFiles/home.js"></script>
+    <link rel="stylesheet" href="CSS/About.css">
+    <link rel="stylesheet" href="CSS/ourupdate.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #29463a;
+        }
+        * {box-sizing: border-box;}
+        
+        /* Full-width input fields */
+        input[type=text], input[type=number],input[type=email]{
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        /* Add a background color when the inputs get focus */
+        input[type=text]:focus, input[type=number]:focus,input[type=email]:focus{
+          background-color: #ddd;
+          outline: none;
+        }
+        
+        /* Set a style for all buttons */
+        button {
+          background-color: #04AA6D;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+          border-radius: 8px;
+        }
+        
+        button:hover {
+          opacity:1;
+        }
+        
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+          padding: 14px 20px;
+          background-color: #f44336;
+          border-radius: 8px;
+        }
+        
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn, .regbtn{
+          float: left;
+          width: 50%;
+        }
+        /* The Modal (background) */
+        .form{
+            width:30%;
+            height: 30%;
+        }
+        /* Modal Content/Box */
+        .modal-content {
+          margin: 5% auto 15% auto;
+          border: 1px solid #483b3b;
+          width: 45%;
+          border: none;
+          background-color: rgb(128, 115, 97);
+          border-radius: 10px;
+        }
+         
+        /* The Close Button (x) */
+        .close {
+          position: absolute;
+          right: 35px;
+          top: 15px;
+          font-size: 40px;
+          font-weight: bold;
+          color: #f1f1f1;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #f44336;
+          cursor: pointer;
+        }
+        
+        /* Clear floats */
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        /* Change styles for cancel button and signup button on extra small screens */
+        @media screen and (max-width: 320px) {
+          .cancelbtn, .regbtn {
+             width: 100%;
+          }
+        }
+        </style>
+
+</head>
+<body>
+    <!-- <div class="container-fluid">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register Now</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> -->
+  <form class="modal-content" action="/action_page.php form">
+    <div class="container">
+      <h4 class="text-center"><b>Registration Form</b></h4>
+      <label for="name"><b>First Name</b></label>
+      <input type="text" placeholder="First Name...." name="fn" required>
+      <label for="name"><b>Last Name</b></label>
+      <input type="text" placeholder="Last Name...." name="ln" required>
+      <label for="number"><b>Mobile Number</b></label>
+      <input type="number" placeholder="Enter Mobile Number..." name="number" required>
+      <label for="email"><b>Email Id</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="regbtn">Register</button>
+      </div>
+    </div>
+  </form>
+<!-- </div> -->
+</body>
+</html>

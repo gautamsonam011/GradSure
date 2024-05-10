@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h5 {
+    color: black;
+    margin-top: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 15px;
+    box-shadow: -2px -2px 5px rgba(8, 7, 7, 0.3),
+        5px 5px 5px rgba(11, 10, 10, 0.2),
+        15px 15px 15px rgba(4, 1, 1, 0.2);
+    transform: rotateY('150deg');
+}
+h1:hover{
+    width: auto;
+    height: auto;
+}
+/* Now Start part of box  */
+.box {
+    margin: 0.5rem;
+    width: 300px;
+    background-color: rgb(41, 56, 10);
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 5px rgba(8, 7, 7, 0.3),
+        5px 5px 5px rgba(11, 10, 10, 0.2),
+        15px 15px 15px rgba(4, 1, 1, 0.2);
+}
+/* Image transition part  */
+.img {
+    transition:2s;
+}
+
+img:hover {
+    height: 350px;
+}
+/* Now start media query  */
+@media screen and (max-width:320px) {
+}
+@media screen and (max-width:375px) {
+}
+@media screen and (max-width:768px) {
+}
+@media screen and (max-width:1024px) {
+}
+@media screen and (max-width:1440px) {
+}
+/* selection  */
+::selection {
+    color: rgb(247, 250, 246);
+    background-color: mediumseagreen;
+  }

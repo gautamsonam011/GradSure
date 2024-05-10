@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* #header{
+    position: fixed;
+    z-index: 3;
+} */
+.card-body{
+    font-weight: bolder;
+    text-align: center;
+
+}
+#fluid{
+    margin-top: 20px;
+    margin-left: 1.5rem;
+}
+@media (min-width:320px) and (max-width:425px) {
+    .col-sm-3{
+        /* width: 100%; */
+        display: block;
+    }
+}
+@media (min-width:500px)and (max-width:768px) {
+    .col-sm-3{
+        /* width: 50%; */
+        display: block;
+    }
+}
+@media  (max-width:1024px) {
+   .col-sm-3{
+    /* width:33.33%; */
+    display: block;
+   } 
+}
+
+h3{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+    font-weight: bolder;
+    padding: 1rem;
+}
+#t5{
+    text-align: center;
+    /* text-decoration-line: underline; */
+    /* text-decoration-color: brown; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;  
+}
+h5{
+    /* font-weight: bold; */
+    text-align: center;
+    /* font-family: Courier, monospace; */
+}
+a.highlight:hover{
+    color: rgb(177, 38, 43);
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(33, 146, 59);
+}
+::selection {
+    color: rgb(247, 250, 246);
+    background-color: mediumseagreen;
+  }
